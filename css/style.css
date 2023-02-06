@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 
 }
 /* Temporary */
@@ -28,9 +28,13 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-content: flex-start;
 }
 ul {
     list-style: none;
+}
+.align-center {
+    align-items: center;
 }
 /* Header */
 header {
